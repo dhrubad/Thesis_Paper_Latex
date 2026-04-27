@@ -1,13 +1,11 @@
-# Thesis_Paper_Latex
-LaTeX thesis template for "A CNN-Based Intrusion Detection System for Imbalanced Network Traffic Data" — Dept. of CSE, Premier University Chattogram. Built with MiKTeX 24.1 &amp; VSCode. Includes full chapter structure, biblatex/biber setup, and a step-by-step local setup guide for Windows.
-
-
 # 📄 CNN-Based Intrusion Detection System — Thesis LaTeX Template
 
 > **A Convolutional Neural Network–Based Intrusion Detection System for Imbalanced Network Traffic Data**  
 > Department of Computer Science & Engineering, Premier University Chattogram
 
 This repository contains the complete LaTeX source of the above thesis paper. It is shared as a reusable template so juniors can adapt the structure for their own thesis projects.
+
+> 🙏 **Based on the original template by [Anik Sen](https://github.com/ascuet/puc-report-template)**, Lecturer, Dept. of CSE, Premier University Chattogram. This is a modified version — all credit for the base structure goes to him.
 
 ---
 
@@ -117,12 +115,24 @@ This project uses **biblatex with biber** — not the older bibtex. Add this to 
 
 ## 👥 Authors
 
-- **Dhruba Dey** — Premier University Chattogram, CSE
-- **Isfa Sultana Tarin** — Premier University Chattogram, CSE
+- **Dhruba Dey** — Premier University Chattogram, CSE 39th Batch
+- **Isfa Sultana Tarin** — Premier University Chattogram, CSE 39th Batch
 - Supervised by **Kingshuk Dhar**, Assistant Professor, Dept. of CSE
+
+---
+
+## 🙏 Acknowledgement & Credit
+
+This repository is a modified version of the original LaTeX thesis template created by **Anik Sen**, Lecturer, Department of Computer Science & Engineering, Premier University Chattogram.
+
+The base structure, styling, and formatting of this template are entirely his work. We have adapted it for our own thesis project.
+
+> 🔗 **Original template:** [github.com/ascuet/puc-report-template](https://github.com/ascuet/puc-report-template)
+
+All credit for the original design and structure goes to him. We are grateful for his work in making this template openly available for students of Premier University Chattogram.
 
 ---
 
 ## 📜 License
 
-This template is shared for academic and educational use. Feel free to adapt it for your own thesis. Attribution appreciated but not required.
+This template is shared for academic and educational use. Feel free to adapt it for your own thesis. If you use this template, please also credit the original author **Anik Sen** and link back to his repository.
