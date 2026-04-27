@@ -1,0 +1,56 @@
+\lipsum[2]
+\begin{enumerate}
+\item \textbf{Deep Neural Networks (DNNs)}
+
+\lipsum[1] ~\cite{zamani2013machine}, ~\cite{alkasassbeh2018machine}, ~\cite{li2018machine}.
+
+However, DNNs have several limitations:
+\begin{itemize}
+\item They do not capture spatial relationships between features.
+\item They can easily overfit, especially on imbalanced data.
+\item They do not model sequences or time unless combined with RNN layers.
+\end{itemize}
+For these reasons, DNNs usually perform worse than CNNs or RNNs in IDS tasks.
+
+
+\item \textbf{Recurrent Neural Networks (RNN), LSTM, and GRU}\\
+Recurrent Neural Networks (RNNs), including LSTM and GRU units, are designed to model sequences and time-dependent behavior. Researchers apply them to IDS to capture temporal patterns in network flows or logs ~\cite{khan2021hcrnnids}, ~\cite{javaid2016deep}.\\
+\textbf{Advantages:}
+\lipsum[2]
+
+Many studies use hybrid models to address these issues. These combine CNN layers for feature extraction and use RNN layers for sequence modeling (e.g., HCRNNIDS) ~\cite{khan2021hcrnnids}.
+
+\item \textbf{Autoencoders (AE) and Deep Belief Networks (DBN)}\\
+Autoencoders and Deep Belief Networks are generally used for unsupervised anomaly detection. Autoencoders learn to reconstruct normal traffic and treat reconstruction errors as anomalies. DBNs learn hierarchical feature representations using stacked restricted Boltzmann machines.\\
+\textbf{Strengths:}
+\lipsum[2]
+Because of these limitations, AEs and DBNs are often used as pretraining tools rather than full IDS classifiers.
+
+
+\item \textbf{Convolutional Neural Networks (CNNs)}\\
+Convolutional Neural Networks are one of the most widely used deep learning models in IDS research. Although originally developed for image processing, CNNs are effective at learning structured patterns in network traffic by treating features as sequences or grids ~\cite{wu2018novel}, ~\cite{naseer2018enhanced}, ~\cite{li2017intrusion}.
+
+\textbf{Key strengths:}
+\lipsum[2]
+
+Research findings show that CNNs:
+\lipsum[2]
+Overall, CNNs have become a leading choice for multiclass intrusion detection.
+
+\item \textbf{Hybrid Deep Learning Models}\\
+\lipsum[2]
+
+\item \textbf{Challenges of Deep Learning for IDS}\\
+Despite their advantages, deep learning–based IDS systems face several ongoing challenges:
+\begin{itemize}
+\item \textbf{Class imbalance:} Minority attacks such as R2L and U2R remain difficult to detect because of limited samples ~\cite{li2017intrusion}, ~\cite{al2014machine}.
+\item \textbf{Dataset aging:} Older datasets do not represent modern encrypted or cloud-based traffic ~\cite{da2019internet}.
+\item \textbf{High computational cost:} Training large DL models requires significant resources ~\cite{khan2021hcrnnids}.
+\item \textbf{Overfitting risks:} DL models may memorize patterns instead of generalizing if regularization is insufficient.
+\item \textbf{Inconsistent preprocessing:} Different encoding and scaling methods across studies make results hard to reproduce ~\cite{zamani2013machine}, ~\cite{alkasassbeh2018machine}, ~\cite{ramya2020network}.
+\end{itemize}
+
+\end{enumerate}
+
+\textbf{Summary}\\
+\lipsum[2]

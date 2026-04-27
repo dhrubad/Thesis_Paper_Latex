@@ -1,0 +1,7 @@
+\thispagestyle{plain}
+\begin{center}
+    \textbf{\LARGE{Abstract}}
+\end{center}
+Intrusion Detection Systems (IDS) play a critical role in protecting modern computer networks, yet their performance is often limited by severe class imbalance and poor detection of rare but high-impact attacks. This issue is particularly evident in the NSL-KDD benchmark dataset, where Remote-to-Local (R2L) and User-to-Root (U2R) attacks are underrepresented and difficult to classify. This thesis presents a cost-sensitive Convolutional Neural Network (CNN)–based IDS designed to improve minority-class detection while preserving strong overall performance. A reproducible experimental pipeline is developed, including curated data splits, consistent preprocessing, and evaluation using macro-averaged and per-class metrics. Three deep learning architectures—a Simple CNN, a hybrid RCNN, and a Moderate-depth CNN—are evaluated under identical conditions with different loss-function strategies. Experimental results show that the Moderate-depth CNN trained with class-weighted cross-entropy and label smoothing achieves the best performance on a challenging test set combining KDDTest+ and KDDTest-21, reaching \textbf{96.25\% accuracy} and a \textbf{macro-F1 score of 0.9042}. Notably, the model achieves perfect recall for U2R attacks, demonstrating its effectiveness for risk-sensitive intrusion detection.   
+
+\textbf{Keywords:} Intrusion Detection System, Convolutional Neural Network, NSL-KDD, Class Imbalance, Cost-Sensitive Learning, Deep Learning, Network Security 

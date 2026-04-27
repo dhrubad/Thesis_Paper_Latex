@@ -1,0 +1,23 @@
+\lipsum[1]
+
+\subsection{Motivation for Using CNNs in Intrusion Detection} 
+CNNs offer several important advantages that help address the weaknesses of traditional ML models and shallow neural networks:
+\begin{enumerate}
+\item \textbf{Automatic Feature Extraction: }
+Classical ML methods need manually engineered features, which can miss important relationships. CNNs, however, learn high-level features automatically from raw or lightly processed data. This helps them capture complex interactions—such as how packet size, flags, and protocol types relate to each other—without hand-designed rules ~\cite{wu2018novel}, ~\cite{naseer2018enhanced}.
+\item \textbf{Ability to Capture Spatial Relationships: }
+Many network features have local dependencies. For example, duration, bytes transferred, and flag values often work together to show whether traffic is normal or suspicious. CNN kernels can detect these local patterns, helping identify subtle attack signatures ~\cite{li2017intrusion}, ~\cite{tang2016deep}.
+\item \textbf{Robustness to Noise and Variation: }
+Because CNNs use parameter sharing and built-in regularization, they are more stable when dealing with noisy data, different types of connections, or varying traffic levels. This improves their ability to generalize across many attack types ~\cite{al2021convolutional}, ~\cite{kim2020cnn}.
+\item \textbf{Computational Efficiency: }
+CNNs are usually faster and lighter than recurrent or hybrid models, especially when working with large datasets. This makes them suitable for IDS applications that require fast processing ~\cite{khan2021hcrnnids}.
+\end{enumerate}
+
+\subsection{CNN Architectures Used in Intrusion Detection}
+\lipsum[2]
+
+\subsection{CNN Performance Across Different IDS Datasets}
+\lipsum[2]
+
+\subsection{Limitations of Existing CNN-Based IDS Research}
+\lipsum[2]

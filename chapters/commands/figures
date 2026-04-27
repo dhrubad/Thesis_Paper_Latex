@@ -1,0 +1,22 @@
+An overview of poster presentation is shown in Fig.~\ref{fig:poster_presentation}.
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=\linewidth]{Figures/poster.jpg}
+  \caption{Example of poster presentation.}
+  \label{fig:poster_presentation} 
+\end{figure}
+
+
+\section{Poster Presentation}
+\lipsum[1-1]
+An overview of poster presentation is shown in Fig.~\ref{fig:poster_presentation}.
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=\linewidth]{Figures/methodologyfigures/image.png}
+  \caption{%
+    Test accuracy comparison across the evaluated CNN architectures. 
+    The Moderate CNN trained with cross-entropy + label smoothing + class weighting achieves the highest accuracy, while the focal-loss variant shows slightly reduced performance due to its emphasis on minority-class reweighting.}
+  \label{fig:poster_presentation}
+\end{figure}

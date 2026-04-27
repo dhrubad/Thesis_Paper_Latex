@@ -1,0 +1,7 @@
+Automatic Numbering in Lists
+
+\begin{enumerate}
+    \item The first item.
+    \item The second item.
+    \item The number changes automatically when items are added or removed.
+\end{enumerate}

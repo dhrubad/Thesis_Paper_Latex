@@ -1,0 +1,5 @@
+Equations: Use the equation environment to automatically number mathematical equations. You can reference them later using \label and \ref
+\begin{equation}
+    E = mc^2 \label{eq:einstein}
+\end{equation}
+Equation \ref{eq:einstein} is famous.

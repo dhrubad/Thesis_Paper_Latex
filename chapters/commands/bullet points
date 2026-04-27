@@ -1,0 +1,62 @@
+Basic Bulleted List
+\begin{itemize}
+    \item This is the first bullet point.
+    \item This is the second bullet point.
+    \item This is the third bullet point.
+\end{itemize}
+
+Automatic Numbering in Lists
+
+\begin{enumerate}
+    \item The first item.
+    \item The second item.
+    \item The number changes automatically when items are added or removed.
+\end{enumerate}
+
+Nested Bullet Points
+\begin{itemize}
+    \item Top level item
+    \begin{itemize}
+        \item A second level nested item
+        \item Another second level nested item
+    \end{itemize}
+    \item Back to main bullet list
+\end{itemize}
+
+Customizing Bullet Points
+\begin{itemize}
+    \item[$\circ$] This item has an open circle bullet.
+    \item[$\ast$] This item has an asterisk bullet.
+    \item[-] This item uses a dash.
+\end{itemize}
+
+
+Using the enumitem Package
+The enumitem package offers easy customization of list labels. You can specify the label format in an optional argument to the \begin{enumerate} command. 
+Include the package in your document's preamble:
+latex
+\usepackage{enumitem}
+Create the list using the enumerate environment and specify the label format with label={...}:
+For lowercase letters (a, b, c...):
+latex
+\begin{enumerate}[label={\alph*)}]
+  \item An apple
+  \item A banana
+  \item A carrot
+\end{enumerate}
+This will produce items labeled as a), b), c), etc.
+For uppercase letters (A, B, C...):
+latex
+\begin{enumerate}[label={\Alph*}]
+  \item The first item
+  \item The second item
+  \item The third item
+\end{enumerate}
+This will produce items labeled as A, B, C, etc.
+For parentheses around the letter, like (a), (b), (c):
+latex
+\begin{enumerate}[label={(\alph*)}]
+  \item A condition
+  \item Another condition
+  \item A final condition
+\end{enumerate}

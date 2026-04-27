@@ -1,0 +1,49 @@
+\section{Background}
+
+People and organizations rely heavily on connected digital systems, so modern computer networks have become more vulnerable as well as people use it more. With the growing use of cloud services, mobile devices, and online platforms, attackers now have many opportunities to exploit weaknesses in these networks. Their intrusion methods are also becoming more advanced and harder to detect. Traditional security tools—such as firewalls, signature-based systems, and fixed access rules—can stop only known threats and provide limited protection against new or changing attacks ~\cite{wu2018novel}, ~\cite{al2021convolutional}. Because of this, Intrusion Detection Systems (IDS) have become an essential part of network security, helping identify suspicious activities that other defenses may miss.
+IDS technologies are usually divided into two main types: misuse-based detection and anomaly-based detection. Misuse-based IDS use signatures created from known attack patterns. They work well for detecting attacks that have been seen before, but they cannot identify new or modified attacks, such as zero-day exploits. On the other hand, anomaly-based IDS learn what normal network behavior looks like and flag anything that does not match this pattern. These systems are better at finding new or unexpected attacks, but they often produce many false alarms and struggle to model complex network traffic accurately ~\cite{kim2020cnn}, ~\cite{patel2014machine}.
+As more curated network datasets—such as KDD’99, NSL-KDD, UNSW-NB15, and CIC-IDS—have become available, machine learning (ML) has gained popularity for anomaly-based intrusion detection. Traditional ML methods like support vector machines, decision trees, k-nearest neighbors, and ensemble techniques often achieve better accuracy and generalization than rule-based IDS ~\cite{zamani2013machine}, ~\cite{alkasassbeh2018machine}, ~\cite{ramya2020network}, ~\cite{li2018machine}. These models learn useful patterns from network features, but they still depend heavily on manual feature engineering. They also struggle to understand deeper or more complex relationships in network traffic. Another major issue is that ML models usually perform poorly on rare attack categories, such as Remote-to-Local (R2L) and User-to-Root (U2R), because these classes have very few examples and are highly imbalanced ~\cite{da2019internet}, ~\cite{al2014machine}.
+
+\lipsum[2]
+
+\section{Problem Statement}
+
+Even though intrusion detection has improved over the years, building a strong and reliable anomaly-based IDS is still difficult. One major reason is that cyber threats keep changing, making it hard for existing systems to stay effective. Another problem comes from the limitations of current datasets and detection methods. Traditional machine learning models depend heavily on hand-crafted features, do not scale well, and often cannot learn the complex, nonlinear patterns found in real network traffic ~\cite{zamani2013machine}, ~\cite{alkasassbeh2018machine}, ~\cite{ramya2020network}, ~\cite{li2018machine}. Because of these weaknesses, they struggle to detect subtle or rare intrusions, especially attacks like Remote-to-Local (R2L) and User-to-Root (U2R).
+
+\lipsum[2]
+
+\section{Research Objectives}
+
+\lipsum[2]
+
+\section{Scope of the Study}
+
+\lipsum[2]
+
+
+\section{Contributions}
+
+\lipsum[2]
+
+One major contribution of this study is a curated method for preparing the NSL-KDD dataset. The approach adds the KDDTest-21 samples to both the training and testing sets in a controlled way. This method:
+\begin{itemize}
+\item	Keeps the original separation between KDDTrain+ and KDDTest+,
+\item	Increases the number of rare attack samples (R2L and U2R),
+\item	Avoids train–test leakage by merging KDDTest-21 into each split separately,
+\item	Improves learning for minority classes without using synthetic data methods like SMOTE or GANs.
+\end{itemize}
+This contribution directly addresses the well-known imbalance problem in NSL-KDD ~\cite{li2017intrusion}, ~\cite{da2019internet}, ~\cite{al2014machine} and gives the CNN a fairer distribution of training examples.
+
+
+
+
+\section{Summary}
+In summary, this study contributes to the field of CNN-based intrusion detection by providing:
+\begin{itemize}
+\item	A well-designed dataset augmentation strategy,
+\item	Multiple CNN architectures evaluated under the same conditions,
+\item	A strong preprocessing pipeline optimized for deep learning,
+\item	An analysis of advanced loss functions under heavy imbalance,
+\item	A rigorous multiclass evaluation with clear, interpretable results.
+\end{itemize}
+Together, these contributions address long-standing challenges in anomaly-based IDS research and offer a solid base for future advances in deep learning–based network security systems.
